@@ -37,9 +37,9 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 
 // ===== EmailJS =====
 // Ezeket írd át a saját EmailJS adataidra
-const EMAILJS_PUBLIC_KEY = "IDE_A_PUBLIC_KEY";
-const EMAILJS_SERVICE_ID = "IDE_A_SERVICE_ID";
-const EMAILJS_TEMPLATE_ID = "IDE_A_TEMPLATE_ID";
+const EMAILJS_PUBLIC_KEY = "vV8FjvoTbyhyelF08";
+const EMAILJS_SERVICE_ID = "service_ta3cef4";
+const EMAILJS_TEMPLATE_ID = "template_87xd7u8";
 
 if (typeof emailjs !== "undefined" && EMAILJS_PUBLIC_KEY !== "IDE_A_PUBLIC_KEY") {
   emailjs.init({
